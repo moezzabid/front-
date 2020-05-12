@@ -1,0 +1,81 @@
+<div [@routerTransition]>
+    <app-page-header [heading]="'Bootstrap Component'" [icon]="'fa-bar-chart-o'"></app-page-header>
+    <div class="row">
+        <div class="col-lg-6">
+
+            <form role="form">
+                <fieldset class="form-group">
+                    <label>Name of tache</label>
+                    <input class="form-control">
+                    
+                </fieldset>
+                </form>
+            </div>
+                <div class="col-lg-6">
+                <form role="form">
+                    <fieldset class="form-group">
+                        <label>Date tache </label>
+                        <input class="form-control">
+                        
+                    </fieldset>
+                    </form>
+
+                </div>
+                <div class="col-lg-6">
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Description</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                      </div>
+    
+                    </div>
+                    
+                        <div class="col-lg-6">
+                            <div class="form-group">
+                                <label>Nom chef d'equipe</label>
+                                <select class="form-control">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                </select>
+                            </div>
+                            </div>
+                          
+                              
+                                    <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <label>Nom d'empolyee</label>
+                                            <select class="form-control">
+                                                <option>1</option>
+                                                <option>2</option>
+                                                <option>3</option>
+                                                <option>4</option>
+                                                <option>5</option>
+                                            </select>
+                                        </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="form-group">
+                                                <label>Nom de projet</label>
+                                                <select class="form-control">
+                                                    <option>1</option>
+                                                    <option>2</option>
+                                                    <option>3</option>
+                                                    <option>4</option>
+                                                    <option>5</option>
+                                                </select>
+                                            </div>
+                                            </div>
+                                        <div class="col-lg-6">
+                                            <button type="button" class="btn btn-lg btn-danger">Cancel</button>
+                                            
+                                        
+                                        </div>
+                                        <button type="button" class="btn btn-lg btn-primary" (click)="ajoutertache()">Save</button>                                        </div>
+                                        
+                                          
+                                        
+                                        </div>
+                                      
+
